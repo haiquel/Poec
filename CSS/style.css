@@ -1,0 +1,438 @@
+body {
+    height: 100%;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.header {
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 90px;
+    padding-bottom: 0px;
+}
+
+.header img {
+    width: 100px;
+    height: 100px;
+    padding-left: 47%;
+    padding-top: 2%;
+}
+
+.nav__items {
+    background-color: #ffffff;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 0px;
+}
+
+.nav__items a {
+    text-decoration: none;
+    margin: 80px;
+    margin-bottom: 20px;
+    margin-left: 130px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000000;
+    text-shadow: 4px 4px 15px #ffbbee;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+.navhr {
+    position: relative;
+    top: 1px;
+    border: none;
+    height: 12px;
+    background: rgb(0, 0, 0);
+    margin-bottom: 5px;
+}
+
+.separador {
+    background-color: #ffffff;
+    position: relative;
+    top: 1px;
+    border: none;
+    height: 1px;
+    margin: 0px;
+}
+
+container {
+    position: relative;
+    width: 1000%;
+    height: 1000%;
+}
+
+container,
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.div1 {
+    padding: 468px;
+    background-color: rgb(0, 0, 0);
+    top: 0px;
+    left: 0px;
+    clip-path: polygon(0 83%, 0 0, 100% 0);
+    position: absolute;
+}
+
+.div2 {
+    background-color: rgba(255, 128, 249, 0);
+    color: rgb(255, 91, 129);
+    padding-left: auto;
+    margin-left: 410px;
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top: 250px;
+    max-width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contenedor-list li {
+    font-size: 57px;
+    list-style: none;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 4px 4px 15px #ff5ad6;
+    letter-spacing: 4px;
+}
+
+w-100 {
+    width: 100%;
+}
+
+.contenedor-list {
+    text-align: center;
+    overflow: hidden;
+    /* Para ocultar cosa si sobrepasa el alto y ancho especificado*/
+    width: 480px;
+    /*ANCHO*/
+    height: 90px;
+}
+
+
+/*/*/
+
+.container__card {
+    max-width: 1200px;
+    margin: 75px;
+    margin-top: 1%;
+    perspective: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 1px;
+    background-color: #000000;
+    margin-bottom: 25px;
+}
+
+.card__father {
+    margin: 20px;
+    perspective: 1000px;
+}
+
+.card__father:hover .card {
+    transform: rotateY(180deg);
+}
+
+.card {
+    width: 300px;
+    height: 450px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 600ms;
+}
+
+.card__front {
+    background-size: cover;
+    background-position: center;
+}
+
+.card__front,
+.card__back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    border-radius: 20px;
+}
+
+.card__back {
+    transform: rotateY(180deg);
+    background: rgb(255, 255, 255);
+}
+
+.body__card_front {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    transform: translateZ(60px);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+}
+
+.bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255, 145, 191, 0.178);
+    border-radius: 20px;
+}
+
+.body__card_back {
+    padding: 40px;
+    text-align: center;
+    transform: translateZ(60px);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.body__card_back p {
+    margin-top: 1px;
+    font-size: 26px;
+}
+
+.body__card_back input:hover {
+    box-shadow: 1px 1px 30px 0px #ffc7ffe1;
+}
+
+
+/*Fin de las tarjetas */
+
+
+/*Boton*/
+
+.btn__inicio {
+    display: inline-block;
+    margin-bottom: 19px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
+    padding: 25px 45px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 530px;
+    margin-right: 450px;
+    margin-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn__inicio:hover {
+    background-color: rgb(255, 154, 206);
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 195px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
+    padding: 25px 45px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 530px;
+    margin-right: 450px;
+    margin-top: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn:hover {
+    background-color: rgb(255, 154, 206);
+}
+
+.container2 {
+    padding-top: 250px;
+}
+
+
+/*INICIO FOOTER*/
+
+footer {
+    background-color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0%;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 0%;
+    border-top-right-radius: 5%;
+    border: bottom right radius 0%;
+}
+
+.container__footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 1px;
+    padding-left: 60px;
+    padding-right: 80px;
+}
+
+.box__footer {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+
+.box__footer h2 {
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-weight: 10;
+}
+
+.box__footer p {
+    margin-bottom: 1px;
+    color: #ffffff;
+    font-weight: 10;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box__footer img {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.box__footer a {
+    margin-top: 1px;
+    color: #ffffff;
+    font-weight: 60;
+    text-decoration: none;
+    margin-bottom: 15px;
+    padding-left: 1px;
+    padding-top: 1px;
+}
+
+.derechos {
+    max-width: 1200px;
+    margin: 0%;
+    text-align: center;
+    padding: 0px 40px;
+    padding-bottom: 15px;
+}
+
+.derechos p {
+    margin-top: 25px;
+    color: #ffffff;
+}
+
+.derechos hr {
+    border: none;
+    height: 2px;
+    background-color: #ffffff;
+}
+
+
+/*FIN FOOTER*/
+
+
+/*CSS de area:ACERCA DE NOSOTROS*/
+
+.body__nosotros {
+    background-color: #000000;
+}
+
+.infofoto img {
+    height: 600px;
+    width: 600px;
+    padding-left: 385px;
+}
+
+.infonos {
+    padding-top: 80px;
+    padding-left: 50px;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+
+.infonos h1 {
+    color: #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 4px 4px 15px #b6b6b6;
+}
+
+
+/*Fin acerca de*/
+
+
+/*Formulario*/
+
+.body_form {
+    background-color: #000000;
+}
+
+form {
+    padding: 54px;
+    max-width: 600px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-radius: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 350px;
+}
+
+form input {
+    margin-bottom: auto;
+    margin-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    color: #000000;
+    font-size: 1em;
+    resize: none;
+}
+
+.form_button {
+    display: block;
+    height: 55px;
+    width: 105px;
+    padding-bottom: 30;
+    margin-bottom: 30;
+    margin-top: 25px;
+    margin-left: 250px;
+    border-radius: 30px;
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/*Formulario-JS*/
+
+.cont_izq {
+    float: left;
+}
+
+.cont_der {
+    float: left;
+}
+
+.cont_der img {
+    width: 10px;
+    height: 10px;
+}
+
+.hr1 {
+    border-color: #ff61bd;
+}
+
+.hr2 {
+    border-color: #ff61bd;
+}
