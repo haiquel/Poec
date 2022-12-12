@@ -336,3 +336,10 @@ footer {
 .body__nosotros {
     background-color: #000000;
 }
+
+.infonos {
+    padding-top: 80px;
+    padding-left: 50px;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
