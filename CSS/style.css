@@ -162,3 +162,9 @@ footer {
     flex-direction: column;
     padding: 0px;
 }
+
+.box__footer h2 {
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-weight: 10;
+}
