@@ -210,3 +210,18 @@ footer {
     height: 2px;
     background-color: #ffffff;
 }
+
+/*INICIO CSS; CONTENIDO HTML: PRINCIPAL*/
+
+.container__card {
+    max-width: 1200px;
+    margin: 75px;
+    margin-top: 1%;
+    perspective: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 1px;
+    background-color: #000000;
+    margin-bottom: 25px;
+}
