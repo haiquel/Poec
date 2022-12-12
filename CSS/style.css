@@ -124,3 +124,12 @@ w-100 {
 .btn__inicio:hover {
     background-color: rgb(255, 154, 206);
 }
+
+.contenedor-list {
+    text-align: center;
+    overflow: hidden;
+    /* Para ocultar cosa si sobrepasa el alto y ancho especificado*/
+    width: 480px;
+    /*ANCHO*/
+    height: 90px;
+}
