@@ -33,5 +33,14 @@ body {
     color: #000000;
     text-shadow: 4px 4px 15px #ffbbee;
     letter-spacing: 3px;
+    
+.navhr {
+    position: relative;
+    top: 1px;
+    border: none;
+    height: 12px;
+    background: rgb(0, 0, 0);
+    margin-bottom: 5px;
+}
     font-size: 20px;
 }
