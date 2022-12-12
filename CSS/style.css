@@ -230,3 +230,7 @@ footer {
     margin: 20px;
     perspective: 1000px;
 }
+
+.card__father:hover .card {
+    transform: rotateY(180deg);
+}
