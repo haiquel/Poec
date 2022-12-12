@@ -241,3 +241,8 @@ footer {
     transform-style: preserve-3d;
     transition: all 600ms;
 }
+
+.card__front {
+    background-size: cover;
+    background-position: center;
+}
