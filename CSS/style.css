@@ -156,3 +156,9 @@ footer {
     padding-left: 60px;
     padding-right: 80px;
 }
+
+.box__footer {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
