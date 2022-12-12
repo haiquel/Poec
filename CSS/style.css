@@ -234,3 +234,10 @@ footer {
 .card__father:hover .card {
     transform: rotateY(180deg);
 }
+.card {
+    width: 300px;
+    height: 450px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 600ms;
+}
