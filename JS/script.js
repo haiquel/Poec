@@ -22,3 +22,8 @@ function displace() {
             ul.appendChild(document.querySelectorAll("ul>li")[0]) //aprenChild coloca un hijo al elemento 
         })
 }
+
+//setInterval repite operaciones cada cierto tiempo determinado.
+setInterval(() => {
+    displace();
+}, 1000);
