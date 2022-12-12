@@ -333,4 +333,6 @@ footer {
 }
 
 /*CSS de area:ACERCA DE NOSOTROS*/
-
+.body__nosotros {
+    background-color: #000000;
+}
