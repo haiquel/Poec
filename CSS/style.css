@@ -9,3 +9,10 @@ body {
     margin-bottom: 90px;
     padding-bottom: 0px;
 }
+
+.header img {
+    width: 100px;
+    height: 100px;
+    padding-left: 47%;
+    padding-top: 2%;
+}
