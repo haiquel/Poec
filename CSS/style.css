@@ -181,3 +181,13 @@ footer {
     height: 30px;
     margin-top: 10px;
 }
+
+.box__footer a {
+    margin-top: 1px;
+    color: #ffffff;
+    font-weight: 60;
+    text-decoration: none;
+    margin-bottom: 15px;
+    padding-left: 1px;
+    padding-top: 1px;
+}
