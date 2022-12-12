@@ -305,3 +305,21 @@ footer {
 }
 
 /*Fin de las tarjetas */
+
+
+/*CSS boton Principal*/
+.btn {
+    display: inline-block;
+    margin-bottom: 195px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
+    padding: 25px 45px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 530px;
+    margin-right: 450px;
+    margin-top: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
