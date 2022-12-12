@@ -327,3 +327,7 @@ footer {
 .btn:hover {
     background-color: rgb(255, 154, 206);
 }
+
+.container2 {
+    padding-top: 250px;
+}
