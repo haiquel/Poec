@@ -191,3 +191,11 @@ footer {
     padding-left: 1px;
     padding-top: 1px;
 }
+
+.derechos {
+    max-width: 1200px;
+    margin: 0%;
+    text-align: center;
+    padding: 0px 40px;
+    padding-bottom: 15px;
+}
