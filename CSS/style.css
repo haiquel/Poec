@@ -294,3 +294,8 @@ footer {
     transform: translateZ(60px);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.body__card_back p {
+    margin-top: 1px;
+    font-size: 26px;
+}
