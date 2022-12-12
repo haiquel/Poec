@@ -145,3 +145,14 @@ footer {
     border-top-right-radius: 5%;
     border: bottom right radius 0%;
 }
+
+.container__footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 1px;
+    padding-left: 60px;
+    padding-right: 80px;
+}
