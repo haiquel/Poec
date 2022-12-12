@@ -105,3 +105,7 @@ img {
     margin-top: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.btn__inicio:hover {
+    background-color: rgb(255, 154, 206);
+}
