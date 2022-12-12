@@ -204,3 +204,9 @@ footer {
     margin-top: 25px;
     color: #ffffff;
 }
+
+.derechos hr {
+    border: none;
+    height: 2px;
+    background-color: #ffffff;
+}
