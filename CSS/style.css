@@ -23,3 +23,15 @@ body {
     padding-bottom: 1px;
     padding-left: 0px;
 }
+
+.nav__items a {
+    text-decoration: none;
+    margin: 80px;
+    margin-bottom: 20px;
+    margin-left: 130px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000000;
+    text-shadow: 4px 4px 15px #ffbbee;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
