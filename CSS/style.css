@@ -225,3 +225,8 @@ footer {
     background-color: #000000;
     margin-bottom: 25px;
 }
+
+.card__father {
+    margin: 20px;
+    perspective: 1000px;
+}
