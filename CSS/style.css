@@ -74,3 +74,16 @@ img {
     clip-path: polygon(0 83%, 0 0, 100% 0);
     position: absolute;
 }
+
+.div2 {
+    background-color: rgba(255, 128, 249, 0);
+    color: rgb(255, 91, 129);
+    padding-left: auto;
+    margin-left: 410px;
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top: 250px;
+    max-width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
