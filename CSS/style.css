@@ -168,3 +168,10 @@ footer {
     color: #ffffff;
     font-weight: 10;
 }
+
+.box__footer p {
+    margin-bottom: 1px;
+    color: #ffffff;
+    font-weight: 10;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
